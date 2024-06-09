@@ -63,12 +63,12 @@ const sidebars = {
   projectSidebar: [
     {
       type: 'category',
-      label: 'Projects',
+      label: 'Dragon',
       items: ['projects/dragon/dragon'],
     },
     {
       type: 'category',
-      label: 'starlink',
+      label: 'Starlink',
       items: ['projects/starlink/starlink'],
     },
   ],
