@@ -28,6 +28,59 @@ const sidebars = {
     },
   ],
    */
+  
+  rocketSidebar: [
+    {
+      type: 'category',
+      label: 'Falcon 9',
+      items: ['rockets/falcon-9/falcon-9'],
+    },
+    {
+      type: 'category',
+      label: 'Falcon Heavy',
+      items: ['rockets/falcon-heavy/falcon-heavy'],
+    },
+    {
+      type: 'category',
+      label: 'Starship',
+      items: ['rockets/starship/starship'],
+    },
+  ],
+
+  engineSidebar: [
+    {
+      type: 'category',
+      label: 'Raptor',
+      items: ['engines/raptor/raptor'],
+    },
+    {
+      type: 'category',
+      label: 'Merlin',
+      items: ['engines/merlin/merlin'],
+    },
+  ],
+
+  projectSidebar: [
+    {
+      type: 'category',
+      label: 'Projects',
+      items: ['projects/dragon/dragon'],
+    },
+    {
+      type: 'category',
+      label: 'starlink',
+      items: ['projects/starlink/starlink'],
+    },
+  ],
+  
+  launchesSidebar: [
+    {
+      type: 'category',
+      label: 'Launches',
+      items: ['launches/launches'],
+    },
+
+  ],
 };
 
 export default sidebars;

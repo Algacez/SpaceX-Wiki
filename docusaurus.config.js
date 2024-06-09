@@ -16,12 +16,12 @@ const config = {
   url: 'https://algacez.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/docusaurustest/',
+  baseUrl: '/SpaceX-Wiki/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'Algacez', // Usually your GitHub org/user name.
+  projectName: 'SpaceX-Wiki', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -74,13 +74,31 @@ const config = {
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            sidebarId: 'rocketSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Rockets',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'engineSidebar',
+            position: 'left',
+            label: 'Engines',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'projectSidebar',
+            position: 'left',
+            label: 'Projects',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'launchesSidebar',
+            position: 'left',
+            label: 'Launches',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/algacez/docusaurustest',
+            href: 'https://github.com/algacez/',
             label: 'GitHub',
             position: 'right',
           },
@@ -90,29 +108,58 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Rockets',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Falcon 9',
+                to: '/docs/rockets/falcon-9/',
+              },
+              {
+                label: 'Falcon Heavy',
+                to: '/docs/rockets/falcon-heavy/',
+              },
+              {
+                label: 'Starship',
+                to: '/docs/rockets/starship/',
               },
             ],
           },
           {
-            title: 'Community',
+            title: 'Engines',
+            items: [
+              {
+                label: 'Raptor',
+                to: '/docs/engines/raptor',
+              },
+              {
+                label: 'Merlin',
+                to: '/docs/engines/merlin',
+              },
+            ],
+          },
+          {
+            title: 'Projects',
+            items: [
+              {
+                label: 'Dragon',
+                to: '/docs/projects/dragon',
+              },
+              {
+                label: 'Starlink',
+                href: '/docs/projects/starlink',
+              },
+            ],
+          },
+          {
+            title: 'Links',
             items: [
               {
                 label: 'SpaceX',
                 href: 'https://www.spacex.com',
               },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'Starlink',
+                href: 'https://www.starlink.com/',
               },
             ],
           },

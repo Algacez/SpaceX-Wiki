@@ -27,13 +27,6 @@ export default function Home() {
           <h1 className="hero__title">
             {siteConfig.title}
           </h1>
-          <div className={styles.buttons}>
-            <a
-              className="button button--secondary button--lg"
-              href="https://www.spacex.com/"> {/* 修改为你想要链接的地址 */}
-              SpaceX Official Website
-            </a>
-          </div>
         </div>
       </header>
       <main>
