@@ -76,10 +76,19 @@ const sidebars = {
   launchesSidebar: [
     {
       type: 'category',
-      label: 'Launches',
-      items: ['launches/launches'],
+      label: 'Falcon 9',
+      items: ['rockets/falcon-9/falcon-9'],
     },
-
+    {
+      type: 'category',
+      label: 'Falcon Heavy',
+      items: ['rockets/falcon-heavy/falcon-heavy'],
+    },
+    {
+      type: 'category',
+      label: 'Starship',
+      items: ['rockets/starship/starship'],
+    },
   ],
 };
 
