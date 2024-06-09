@@ -10,7 +10,7 @@ export default function Home() {
 
   // 假设背景图片的尺寸为 1200x800
   const headerStyle = {
-    backgroundImage: `url('https://pic.imgdb.cn/item/65d892e69f345e8d03beebd7.png')`, // 替换为你的背景图片路径
+    backgroundImage: `url('https://pic.imgdb.cn/item/666571125e6d1bfa05b2e90f.png')`, // 替换为你的背景图片路径
     height: '1200px', // 设置与背景图片相同的高度
     backgroundSize: 'cover', // 让背景图片充满整个区域
     backgroundPosition: 'center' // 将背景图片居中

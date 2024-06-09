@@ -44,14 +44,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/Algacez/SpaceX-Wiki/tree/main',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/Algacez/SpaceX-Wiki/tree/main',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -155,11 +155,15 @@ const config = {
             items: [
               {
                 label: 'SpaceX',
-                href: 'https://www.spacex.com',
+                href: 'https://www.spacex.com/',
               },
               {
                 label: 'Starlink',
                 href: 'https://www.starlink.com/',
+              },
+              {
+                label: 'Find Starlink',
+                href: 'https://findstarlink.com/',
               },
             ],
           },
