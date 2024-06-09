@@ -1,0 +1,15 @@
+.background {
+    background-image: url('https://pic.imgdb.cn/item/65d892e69f345e8d03beebd7.png'); /* 修改为你想要显示的图片路径 */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .content {
+    text-align: center;
+    color: white; /* 文字颜色 */
+  }
+  
